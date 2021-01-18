@@ -1,6 +1,6 @@
-##Hilt
+## Hilt
 
-###Sources:
+### Sources:
 	https://developer.android.com/training/dependency-injection/hilt-android#hilt-and-dagger
 	https://arunkumar.dev/scabbard-dagger-hilt-integration-and-visualizing-component-hierarchies/
 	https://www.youtube.com/watch?v=B56oV3IHMxg
