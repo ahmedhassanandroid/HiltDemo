@@ -39,12 +39,12 @@
 	ViewWithFragmentComponent
 
 * useing jetpack view model extensions
-	Note: when using viewModel extension integration cannot use FragmentComponents (Unknown)
-	@ViewModelInject
-	by viewModel()
-    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
-    implementation "androidx.fragment:fragment-ktx:1.2.5"
-    kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
+	- Note: when using viewModel extension integration cannot use FragmentComponents (Unknown)
+	- @ViewModelInject
+	- by viewModel()
+    - implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
+    - implementation "androidx.fragment:fragment-ktx:1.2.5"
+    - kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
 
 
 ### Scopes
@@ -62,12 +62,12 @@
 * @Multibinds and @IntoSet annotations to custmoize dependecies for environemnts
 
 * Testing: 
-	@HiltAndroidTest
+```	@HiltAndroidTest
 	@UninstallModules(TestModule::class)
 	class RepoTest{
 		@get:Rule
 		val rule = HiltAndroidRule(this)
 		@Inject 
 		lateinit var .......
-	}
+	}```
 
